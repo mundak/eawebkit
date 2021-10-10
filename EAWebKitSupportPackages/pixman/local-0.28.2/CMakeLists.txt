@@ -39,6 +39,6 @@ target_compile_definitions(pixman PRIVATE
   "PIXMAN_NO_TLS"
   "USE_SSE2"
 )
-target_include_directories(pixman PRIVATE
-  "include/"
+target_include_directories(pixman PUBLIC
+  "include"
 )
